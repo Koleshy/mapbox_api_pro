@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 
-import '../../mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 /// The forward geocoding query type allows you to look up
 /// a single location by name and returns its geographic coordinates.

@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 
-import '../../mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 /// The Mapbox Optimization API returns a duration-optimized route
 /// between the input coordinates.

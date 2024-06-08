@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 
-import '../../mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 /// An isochrone is a line that connects points of
 /// equal travel time around a given location.

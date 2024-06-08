@@ -1,4 +1,4 @@
-# mapbox_api
+# mapbox_api_pro
 
 This package aim to :
 - be a **Dart SDK** for **Mapbox API** with only [http](https://github.com/dart-lang/http) as dependency
@@ -6,10 +6,10 @@ This package aim to :
 
 ## Examples
 
-See [`examples/`](https://github.com/stafyniaksacha/mapbox-api/tree/master/example) for all available examples
+See [`examples/`](https://github.com/Koleshy/mapbox_api_pro/tree/master/example) for all available examples
 
 ```dart
-import 'package:mapbox_api/mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 MapboxApi mapbox = MapboxApi(
   accessToken: '<Mapbox API token>',
@@ -42,8 +42,8 @@ if (response.error == null) {
   // response.waypoints ...
 }
 ```
-> see basic example: [`example/example.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example.dart)  
-> see full example with flutter_gl: [`example/example_directions_flutter.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example_directions_flutter.dart)
+> see basic example: [`example/example.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example.dart)  
+> see full example with flutter_gl: [`example/example_directions_flutter.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example_directions_flutter.dart)
 
 #### Request forward geocoding services
 
@@ -62,7 +62,7 @@ if (response.error == null) {
   // response.features ...
 }
 ```
-> see full example : [`example/example_forward_search.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example_forward_search.dart)
+> see full example : [`example/example_forward_search.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example_forward_search.dart)
 
 ## Supported API
 
@@ -85,7 +85,7 @@ if (response.error == null) {
 
 | Service | Implemented | Example |
 | ------ | ------ | ------ |
-| Directions | :white_check_mark:   | [`example/example.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example.dart) <br> [`example/example_directions_flutter.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example_directions_flutter.dart) |
+| Directions | :white_check_mark:   | [`example/example.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example.dart) <br> [`example/example_directions_flutter.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example_directions_flutter.dart) |
 | Isochrone | :white_check_mark:   |
 | Map Matching | :white_check_mark:   |
 | Matrix | :white_check_mark: |
@@ -95,9 +95,9 @@ if (response.error == null) {
 
 | Service | Implemented | Batch | Example |
 | ------ | ------ | ------ | ------ |
-| Forward Geocoding | :white_check_mark: | :white_check_mark: | [`example/example_forward_search.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example_forward_search.dart) |
-| Reverse Geocoding | :white_check_mark: | :white_check_mark: | [`example/example_reverse_search.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example_reverse_search.dart) |
-| Intersection | :white_check_mark: | :heavy_multiplication_x: | [`example/example_intersection_search.dart`](https://github.com/stafyniaksacha/mapbox-api/blob/master/example/example_intersection_search.dart) |
+| Forward Geocoding | :white_check_mark: | :white_check_mark: | [`example/example_forward_search.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example_forward_search.dart) |
+| Reverse Geocoding | :white_check_mark: | :white_check_mark: | [`example/example_reverse_search.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example_reverse_search.dart) |
+| Intersection | :white_check_mark: | :heavy_multiplication_x: | [`example/example_intersection_search.dart`](https://github.com/Koleshy/mapbox_api_pro/blob/master/example/example_intersection_search.dart) |
 
 ### Accounts
 
@@ -108,5 +108,5 @@ if (response.error == null) {
 
 ## Related Packages
 
-This SDK will work perfectly with  [flutter-mapbox-gl](https://github.com/tobrun/flutter-mapbox-gl) to display retrieved data *(will work with any other package too)*.
+This SDK will work perfectly with  [mapbox_maps_flutter](https://pub.dev/packages/mapbox_maps_flutter) to display retrieved data *(will work with any other package too)*.
 You may also need [polyline](https://github.com/DartSociety/polyline.dart) package to convert polylines strings to coordinates.

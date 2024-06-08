@@ -1,4 +1,4 @@
-import 'package:mapbox_api/mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 void main() async {
   final mapbox = MapboxApi(

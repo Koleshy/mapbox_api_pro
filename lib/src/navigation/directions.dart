@@ -1,8 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart';
-
-import '../../mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 /// The Mapbox Directions API will show you how to get where you're going.
 ///

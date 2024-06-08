@@ -1,4 +1,4 @@
-import 'package:mapbox_api/mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 void main() async {
   /**
@@ -23,8 +23,6 @@ void main() async {
    *  - mapbox.reverseGeocoding
    *  - mapbox.intersection
    *
-   * See https://github.com/stafyniaksacha/mapbox-api/tree/master/example
-   * for all available examples
    */
   final response = await mapbox.directions.request(
     profile: NavigationProfile.DRIVING_TRAFFIC,

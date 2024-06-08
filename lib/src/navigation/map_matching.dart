@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 
-import '../../mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 /// The Mapbox Map Matching API snaps fuzzy,
 /// inaccurate traces from a GPS unit or a phone

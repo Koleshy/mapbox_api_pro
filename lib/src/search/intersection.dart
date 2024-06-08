@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 
-import '../../mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 /// Intersection search allows users to search for a point
 /// where two streets intersect, without a precise address.

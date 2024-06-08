@@ -1,7 +1,7 @@
 /*
 // Draw direction to mapbox_gl (flutter)
 
-import 'package:mapbox_api/mapbox_api.dart';
+import 'package:mapbox_api_pro/mapbox_api_pro.dart';
 
 import 'package:mapbox_gl/mapbox_gl.dart';
 import 'package:polyline/polyline.dart';

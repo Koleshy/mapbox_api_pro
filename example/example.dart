@@ -5,7 +5,8 @@ void main() async {
    * Get your Mapbox API token on https://www.mapbox.com/
    */
   final mapbox = MapboxApi(
-    accessToken: '<Mapbox API token>',
+    accessToken: 'pk.eyJ1IjoiY3VwZXItdGVjIiwiYSI6ImNsd2lud2lnYjB0NDkya244aDQzMTZpeGgifQ.5EgxR4zaaHXUIuo3uLXhlA'
+    //accessToken: '<Mapbox API token>',
   );
 
   /**
